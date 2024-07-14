@@ -35,8 +35,8 @@ if(WIN32)
     target_compile_definitions(rplidar_driver PRIVATE _WIN32)
 elseif(APPLE)
     target_compile_definitions(rplidar_driver PRIVATE _MACOS)
-elseif(UNIX)
-    target_compile_definitions(rplidar_driver PRIVATE __GNUC__)
+#elseif(UNIX)
+#    target_compile_definitions(rplidar_driver PRIVATE __GNUC__)
 endif()
 
 
