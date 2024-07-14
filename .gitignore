@@ -1,5 +1,6 @@
 .vscode
 .vs
+.idea
 *.user
 *.aps
 obj
@@ -10,3 +11,7 @@ sdk/obj
 **/ipch
 *.obj
 *.o
+cmake-build-debug
+cmake-build-release
+build
+bin
